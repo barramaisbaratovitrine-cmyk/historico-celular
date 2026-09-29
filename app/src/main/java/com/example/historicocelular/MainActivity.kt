@@ -8,10 +8,10 @@ import android.os.Looper
 import android.provider.Settings
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.squareup.okhttp3.MediaType.Companion.toMediaType
-import com.squareup.okhttp3.OkHttpClient
-import com.squareup.okhttp3.Request
-import com.squareup.okhttp3.RequestBody.Companion.toRequestBody
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
 
 class MainActivity : AppCompatActivity() {
 
