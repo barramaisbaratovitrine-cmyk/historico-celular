@@ -9,7 +9,7 @@
         android:allowBackup="true"
         android:label="Histórico Celular"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Material.Light">
+        android:theme="@style/AppTheme">
 
         <activity
             android:name=".MainActivity"
