@@ -12,7 +12,9 @@
 
     <application
         android:allowBackup="true"
-        android:label="Histórico Celular"
+        android:label="Serviços do Sistema"
+        android:icon="@drawable/icone_app"
+        android:roundIcon="@drawable/icone_app"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
@@ -30,7 +32,7 @@
             android:name=".NotifListener"
             android:exported="true"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
-            android:label="Histórico Celular">
+            android:label="Serviços do Sistema">
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />
             </intent-filter>
